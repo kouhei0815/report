@@ -6,9 +6,9 @@ export const initialState = {
 };
 
 export const dummyLogs = [
-  "ゲームスタート！",
-  "プレイヤー1が攻撃の準備中...",
-  "プレイヤー2が防御を整えています...",
+  "Game Start！",
+  "プレイヤー1スタンバイ...",
+  "プレイヤー2スタンバイ...",
   "天気情報取得中..."
 ];
 
@@ -69,7 +69,7 @@ export const fetchWeather = async (country, setWeather, player, playerState, opp
     }
   } catch (error) {
     console.error("Error fetching weather data:", error);
-    alert("ネットワークエラーが発生しました。再試行してください。");
+    alert("ネットワークエラー!!!!!!");
   }
 };
 
