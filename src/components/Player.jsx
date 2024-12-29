@@ -1,5 +1,5 @@
 import React from "react";
-import WeatherInfo from "./WeatherInfo";  // インポートパスの確認
+import WeatherInfo from "./WeatherInfo";  
 import { cities } from "../utils";
 
 const Player = ({ player, selectedCountry, onSelectCountry, weather, stats, onAttack }) => (
