@@ -1,0 +1,59 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0 0 50px 0; /* 下部に50pxの余白を追加 */
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+  overflow-y: scroll; /* 縦方向にスクロールを許可 */
+}
+
+input {
+  margin: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 12px 18px; /* ボタンを大きくする */
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background: #ff5f6d;
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+div {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: #ffffff; /* 見やすい色に変更 */
+}
+
+p {
+  color: #ffffff; /* 見やすい色に変更 */
+}
+
+.weather-info {
+  color: #000000; /* 天気や気温の色を濃く設定 */
+  font-weight: bold;
+}
+
+.log-entry {
+  color: #000000; /* ゲームログの文字色を黒に設定 */
+}
+
+.stats {
+  color: #000000; /* HP、攻撃力、防御力の文字色を緑に設定 */
+  font-weight: bold;
+}
